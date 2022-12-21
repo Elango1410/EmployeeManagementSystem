@@ -1,0 +1,25 @@
+.util i, .user i {
+	font-size: 18px;
+	margin: 0 5px;
+	border: 4px  crimson;
+	padding: 4px 10px;
+	color: crimson;
+	border-radius: 20px;
+	
+}
+
+.header{
+    background-color: rgb(47, 130, 130);
+}
+
+.navbar-nav{
+    color: brown;
+}
+.content{
+    background-attachment:scroll;
+   
+}
+
+.image{
+	width: 200px;
+}

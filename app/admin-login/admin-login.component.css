@@ -1,0 +1,20 @@
+
+*{
+    box-sizing: border-box;
+}
+
+  
+
+.image{
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size:100% 90%;
+   
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Flogin&psig=AOvVaw1aSSzIv9L7OAfGIypqZ6KL&ust=1671506990260000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNCqhP7ehPwCFQAAAAAdAAAAABAE");
+}
+
+.loginImg{
+    width: 100%;
+    height: 100%;
+}

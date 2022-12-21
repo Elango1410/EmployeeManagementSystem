@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-sm navbar-da" style="background-color:black">
+    <div class="container-fluid">    
+       
+    <ul class = "nav navbar-nav">
+        
+        
+        
+        <button onclick="history.back()"class="btn btn-primary navbar-btn">Go Back</button>      
+        
+    </ul>
+    <button (click)="logOut()"class="btn btn-danger navbar-btn">Log out</button>
+    </div>
+</nav>
+<h2 style="text-align:center">User Details</h2>
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+        <table class = "table table-striped">
+    <thead>
+        <tr>
+            <th>emailID</th>
+                <th>username</th>
+                <th>password</th>
+                
+           
+            
+         
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of userList">
+            <td>{{user.emailId}}</td>
+            <td>{{user.username}}</td>
+            <td>{{user.password}}</td>
+          
+            
+  </tr>
+    </tbody>
+</table>
+ 
+        </div></div></div> 
+
+
+

@@ -1,0 +1,45 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<nav class="navbar navbar-expand-sm navbar-da" style="background-color:black">
+  <div class="container-fluid" >    
+     
+  <ul class = "nav navbar-nav">
+      
+      
+      
+      <button (click)="back()"class="btn btn-primary navbar-btn">Go Back</button>      
+      
+  </ul>
+
+  </div>
+</nav>
+
+<!--<img src="../assets/lohin.png" class="loginImg">-->
+
+    <div class="row d-flex justify-content-center" style="background-image: url(../assets/login.jpg);">
+        <div class="col-lg-4">
+          <h2 style="text-align: center;"class="fw-bold mb-5"><b style="color:rgb(1, 250, 68)" >Login</b></h2>
+          <form #registerform="ngForm" (ngSubmit)="adminLogin()">
+            <small class="text-danger">{{message}}</small>
+          
+            <div class="form-outline mb-4">
+              <label for="adminEmailID">Email</label>
+              <input type="email" name="adminEmailId" class="form-control" placeholder="Email "[(ngModel)]="admin.adminEmailId"> 
+              
+             
+             </div>
+    
+       
+            <div class="form-outline mb-4">
+              <label for="adminPassword">Password</label>
+              <input type="password" name="adminPassword" class="form-control" placeholder="Password"[(ngModel)]="admin.adminPassword" />
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-block mb-4" style="color: rgb(255, 255, 255);">
+                Login
+            </button>
+          </form></div>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <div id="copyright"style="text-align:center"><b style="color: rgb(255, 255, 255);">&reg;All rights reserved</b></div>
+    </div>

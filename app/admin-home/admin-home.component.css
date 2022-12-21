@@ -1,0 +1,11 @@
+.nav navbar-nav{
+    text-align: center;
+}
+.img{
+    image-resolution: 100px;
+    width: 100px;
+    height: 50px;
+}
+.d-block w-100{
+    width: 50px;
+}
